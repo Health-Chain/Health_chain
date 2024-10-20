@@ -1,14 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
-import MobileNavbar from '../components/Navbar/MobileNav'
 import Hero from '../components/Hero/Hero'
+import Speciality from '../components/Speciality/Speciality'
+import CreateAccount from '../components/CreateAccount/CreateAccount'
 
 const HomePage = () => {
   return (
     <div className='homepage' style={{backgroundColor: "#ffffff", height:"auto"}}>
         <Navbar/>
-        {/* <MobileNavbar/> */}
         <Hero/>
+        <Speciality/>
+        <CreateAccount/>
     </div>
   )
 }
