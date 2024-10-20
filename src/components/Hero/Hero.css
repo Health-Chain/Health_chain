@@ -1,0 +1,90 @@
+.Hero{
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero .banner{
+    background-color:  #5F6FFF;
+    min-width: 350px;
+    width: 90%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 12px;
+    max-height: auto;
+    font-family: "Outfit", sans-serif;
+    flex-wrap: wrap;
+}
+.Hero .banner .text{
+    color: #ffffff;
+    padding: 10px;
+    min-width: 350px;
+    width: 100%;
+    flex-basis: 50%;
+    max-width: 600px;
+    flex: 1;
+}
+.banner .image{
+    height: 70vh;
+    width: 50%;
+    max-width: 882px;
+    max-height: 596px;
+    min-width: 500px;
+}
+.banner .image img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+.banner .text h1{
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 10px 0;
+}
+.banner .text p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 10px 0;
+}
+.banner button{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    border-radius: 47px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0 10px;
+    background-color: #ffffff;
+    min-width: 20vw;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.banner button:active{
+    transform: scale(0.9);
+}
+
+
+
+
+@media (max-width:768px){
+    .Hero .image{
+        display: none;
+    }
+    .Hero .text h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:1024px){
+    .Hero .text{
+        width: 700px;
+    }
+}
