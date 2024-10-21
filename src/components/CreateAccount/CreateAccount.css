@@ -1,0 +1,20 @@
+.CreateAccount{
+    width: 100%;
+    height: auto;
+    background-color: red;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.CreateAccount div{
+    background-color: greenyellow;
+    min-width: 340px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}

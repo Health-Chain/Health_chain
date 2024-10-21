@@ -1,21 +1,12 @@
 import React from 'react'
+import HomePage from './pages/HomePage'
 
-import './App.css'
-
-function App() {
-  
-
+const App = () => {
   return (
-    
-      <div className=''>
-    
-      </div>
+    <div>
+      <HomePage/>
+    </div>
   )
 }
 
-
-
-
-
 export default App
-
