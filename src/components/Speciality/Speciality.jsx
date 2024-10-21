@@ -16,32 +16,32 @@ const Speciality = () => {
             <ul>
                <span>
             <div className="profession"><a href="#"><img src={GeneralPhysician} alt="" /></a></div>
-            <h3>medical doctor</h3>
+            <h3>General Physician</h3>
             </span>
 
             <span>
             <div className="profession"><a href="#"><img src={Gynecologist} alt="" /></a></div>
-            <h3>medical doctor</h3>
+            <h3>Gynecologist</h3>
             </span>
 
             <span>
             <div className="profession"><a href="#"><img src={Dermatologist} alt="" /></a></div>
-            <h3>medical doctor</h3>
+            <h3>Dermatologist</h3>
             </span>
 
             <span>
             <div className="profession"><a href="#"><img src={Pediatrician} alt="" /></a></div>
-            <h3>medical doctor</h3>
+            <h3>Pediatrician</h3>
             </span>
 
             <span>
             <div className="profession"><a href="#"><img src={Neurologist} alt="" /></a></div>
-            <h3>medical doctor</h3>
+            <h3>Neurologist</h3>
             </span>
 
             <span>
             <div className="profession"><a href="#"><img src={Gastro} alt="" /></a></div>
-            <h3>medical doctor</h3>
+            <h3>Gastroenterologist</h3>
             </span>
             </ul>
         </div>
