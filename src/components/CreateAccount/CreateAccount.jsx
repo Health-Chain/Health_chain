@@ -1,5 +1,6 @@
 import React from 'react'
 import './CreateAccount.css'
+import CreateAccountImage from "../../assets/appointment-doc-img.png"
 
 const CreateAccount = () => {
   return (
@@ -10,7 +11,7 @@ const CreateAccount = () => {
             <button>Create Account</button>
         </div>
         <div className="image">
-            <img src="" alt="" />
+            <img src={CreateAccountImage} alt="" />
         </div>
     </div>
   )
