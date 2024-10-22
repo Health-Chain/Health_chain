@@ -1,10 +1,11 @@
 import React from 'react'
-import AllDoctors from '../components/all_doctors/AllDoctors'
+import Footer from '../components/Footer/Footer'
+import AllDoctors from '../components/AllDoctors/AllDoctors'
 function Consultants() {
   return (
     <div>
 <AllDoctors />
-
+<Footer />
     </div>
   )
 }

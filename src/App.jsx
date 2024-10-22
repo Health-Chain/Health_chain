@@ -1,11 +1,18 @@
 import React from 'react'
-import HomePage from "./pages/HomePage"
-import Consultants from './pages/Consultants'
+import DoctorsProfile from './pages/DoctorsProfile'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
+
 const App = () => {
   return (
     <div>
-      <HomePage />
-      <Consultants />
+      
+      <Router>
+      <Routes>
+        <Route path="/*" element={<DoctorsProfile />} /> {/* All doctor-related routes */}
+      </Routes>
+    </Router>
     </div>
   )
 }
