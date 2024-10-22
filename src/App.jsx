@@ -1,21 +1,20 @@
 import React from 'react'
+import DoctorsProfile from './pages/DoctorsProfile'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import './App.css'
 
-function App() {
-  
 
+const App = () => {
   return (
-    
-      <div className=''>
-    
-      </div>
+    <div>
+      
+      <Router>
+      <Routes>
+        <Route path="/*" element={<DoctorsProfile />} /> {/* All doctor-related routes */}
+      </Routes>
+    </Router>
+    </div>
   )
 }
 
-
-
-
-
 export default App
-

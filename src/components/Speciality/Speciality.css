@@ -1,0 +1,96 @@
+.Speciality{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+.Speciality h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+}
+.Speciality p{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 45%;
+    min-width: 320px;
+    text-align: center;
+    padding: 0px 20px;
+}
+.scroll-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 300px;
+    overflow: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+.scroll-box ul{
+    min-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    max-width: 750px;
+    padding: 0 10px;
+}
+.scroll-box .profession{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #AFC1DC 0%, #E2E5ED 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    min-width: 70px;
+    min-height: 70px;
+}
+.scroll-box::-webkit-scrollbar {
+    display: none;
+  }
+  .profession a{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profession img{
+    width: 50%;
+  }
+.scroll-box h3{
+    font-family: "Outfit", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    color: #4B5563;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
