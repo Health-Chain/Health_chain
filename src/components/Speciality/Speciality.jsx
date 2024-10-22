@@ -1,50 +1,22 @@
 import React from 'react'
-import './Speciality.css'
-import GeneralPhysician from '../../assets/Group 4134.png'
-import Gynecologist from '../../assets/Group 4128.png'
-import Dermatologist from '../../assets/Group 4129.png'
-import Pediatrician from '../../assets/Group 4132.png'
-import Neurologist from '../../assets/Group.png'
-import Gastro from '../../assets/Mask group.png'
+import { specialityData } from '../../assets/assets'
+import {Link} from 'react-router-dom'
+
 
 const Speciality = () => {
   return (
-    <div className='Speciality'>
-        <h2>Find by Speciality</h2>
-        <p>Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
-        <div className="scroll-box">
-            <ul>
-               <span>
-            <div className="profession"><a href="#"><img src={GeneralPhysician} alt="" /></a></div>
-            <h3>General Physician</h3>
-            </span>
+    <div className="flex flex-col items-center gap-4 py-16 text-gray-800" id='speciality'>
+         <h1 className="text-3xl font-medium" >Find by Speciality </h1>
+         <p className="sm:w-1/3 text-center text-sm" >Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
+         <div className="flex sm:justify-center gap-4 pt-5 w-full overflow-scroll" >
+          {specialityData.map((item, index)=> (
+            <Link onClick={()=> scrollTo(0,0)} className='flex flex-col items-center text-xs cursor-pointer flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500' key={index} to={`/doctors/${item.speciality}`}>
+              <img className='w-16 sm:w-24 mb-2' src={item.image} alt="" />
+              <p>{item.speciality}</p>
+            </Link>
+          ))}
+         </div>
 
-            <span>
-            <div className="profession"><a href="#"><img src={Gynecologist} alt="" /></a></div>
-            <h3>Gynecologist</h3>
-            </span>
-
-            <span>
-            <div className="profession"><a href="#"><img src={Dermatologist} alt="" /></a></div>
-            <h3>Dermatologist</h3>
-            </span>
-
-            <span>
-            <div className="profession"><a href="#"><img src={Pediatrician} alt="" /></a></div>
-            <h3>Pediatrician</h3>
-            </span>
-
-            <span>
-            <div className="profession"><a href="#"><img src={Neurologist} alt="" /></a></div>
-            <h3>Neurologist</h3>
-            </span>
-
-            <span>
-            <div className="profession"><a href="#"><img src={Gastro} alt="" /></a></div>
-            <h3>Gastroenterologist</h3>
-            </span>
-            </ul>
-        </div>
     </div>
   )
 }

@@ -6,3 +6,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.active hr{
+  @apply block 
+}
+::-webkit-scrollbar{
+  @apply hidden
+
+}
