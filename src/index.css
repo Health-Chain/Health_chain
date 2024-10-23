@@ -61,3 +61,23 @@ color:rgb(22, 172, 22);
 
 }
 
+.active{
+  background-color: rgb(95, 111, 255);
+  color: #fff;
+  }
+  .date ul li p:active, .date ul li p:hover{
+    background-color: rgb(95, 111, 255);
+    color: #fff;
+    
+    }
+
+    .about{
+      transition: all 0.3s ease;
+
+    }
+    .about:hover{
+
+      background-color: rgb(95, 111, 255);
+      color: #fff;
+
+    }
