@@ -22,7 +22,7 @@ const Navbar = () => {
         </NavLink>
 
         <NavLink>
-          <li className='py-1 ' >Health Services</li>
+          <li className='py-1 group relative' >Health Services</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden'/>
         </NavLink>
 
