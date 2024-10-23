@@ -21,9 +21,9 @@ const Navbar = () => {
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
 
-        <NavLink>
-          <li className="py-1 ">Health Services</li>
-          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
+        <NavLink to="/doctorsprofile">
+          <li className='py-1 ' >Health Services</li>
+          <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden'/>
         </NavLink>
 
         <NavLink>
