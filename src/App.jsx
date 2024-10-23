@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Appoinments from "./pages/Appoinments";
 import AllDoctors from "./components/AllDoctors/AllDoctors";
 import DoctorsDetails from "./components/DoctorsDetails/DoctorsDetails";
+import DoctorsProfile from "./pages/DoctorsProfile";
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
         <Route path="doctors" element={<AllDoctors />} />
         <Route path="doctor/:id" element={<DoctorsDetails />} />
         <Route path="appoinment/:id" element={<Appoinments />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/doctorsprofile" element={<DoctorsProfile />} />
       </Routes>
     </div>
   );
