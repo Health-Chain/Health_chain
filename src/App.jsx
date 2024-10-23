@@ -7,6 +7,7 @@ import DoctorsProfile from "./pages/DoctorsProfile";
 import Consultants from "./pages/Consultants";
 import Emergency from "./pages/Emergency";
 import Insurance from "./pages/Insurance";
+import Create_account from "./pages/Create_account";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/consultants" element={<Consultants />} />
         <Route path="/emergency" element={<Emergency />} />
         <Route path="/insurance" element={<Insurance/>} />
+        <Route path="create_account" element={<Create_account/>}/>
        </Routes>
     </div>
   );

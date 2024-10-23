@@ -58,7 +58,7 @@ const Navbar = () => {
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden " />
         </NavLink>
 
-        <NavLink to="/aboutus">
+        <NavLink to="aboutus">
           <li className="py-1 ">About Us</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
@@ -74,10 +74,10 @@ const Navbar = () => {
                   onClick={() => navigate("./aboutus")}
                   className="hover:text-black cursor-pointer"
                 >
-                  My Profile
+                My Profile
                 </p>
                 <p
-                  onClick={() => navigate("./aboutus")}
+                  onClick={() => navigate("./create_account")}
                   className="hover:text-black cursor-pointer"
                 >
                   My Appointments

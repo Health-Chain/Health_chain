@@ -1,5 +1,5 @@
 function DoctorsProfile() {
-  return null;
+  return null
 }
 
 export default DoctorsProfile;
