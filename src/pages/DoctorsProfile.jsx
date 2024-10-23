@@ -1,16 +1,5 @@
-// DoctorsProfile.jsx
-import { Routes, Route } from "react-router-dom";
-import AllDoctors from "../components/AllDoctors/AllDoctors";
-import DoctorsDetails from "../components/DoctorsDetails/DoctorsDetails";
-
 function DoctorsProfile() {
-  return (
-    <Routes>
-      <Route path="/" element={<AllDoctors />} /> {/* List of all doctors */}
-      <Route path="/doctor/:id" element={<DoctorsDetails />} />{" "}
-      {/* Doctor details */}
-    </Routes>
-  );
+  return null;
 }
 
 export default DoctorsProfile;
